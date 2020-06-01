@@ -26,7 +26,11 @@ class Car:
 def main():
     c1 = Car(model='Civic', make='Honda', year=2020)
     print(c1)
-    print(Car())
+    c1.model('Accord')
+    print(c1)
+    c2 = Car()
+    print(c2)
+    print(c1 != c2)
 
 
 if __name__ == "__main__":
